@@ -6,13 +6,15 @@
     <title>自我介绍</title>
     <link rel="stylesheet" href="style.css">
     <style>
-        .avatar{
-            width: 120px;
-            height: 120px;
+        .avatar {
+            width: 160px;
+            height: 160px;
             border-radius: 50%;
-            background-color: #409eff;
-            margin: 0 auto;
+            object-fit: cover;
+            display:block;
+            margin:0 auto;
         }
+
         .info{
             text-align: center;
             color: #666;
@@ -54,7 +56,7 @@
 </head>
 <body>
     <div class="card">
-        <div class="avatar"></div>
+        <img class="avatar" src="avatar.jpg" alt="头像">
         <h1 style="font-family:Microsoft YaHei;">沈奇韬</h1>
         <div class="info">家乡：肇庆 职业：前端学习者</div>
         <div class="title">一名热爱生活的人</div>
